@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="dados.css">
+</head>
+
+<body>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col text-center">
+                <table id="registroMaquina" class="table table-bordered">
+                    <tr class="table-dark">
+                        <th>
+                            #
+                        </th>
+                        <th>
+                            Registro
+                        </th>
+                    </tr>
+                </table>
+            </div>
+            <div class="col text-center">
+                <img class="foto" src="juanjo-bot.png">
+                <div id="PuntosMaquina" class="puntos">
+                    Puntos: 0
+                </div>
+            </div>
+            <div class="col text-center">
+                <div class="d-grid gap-2 d-md-block">
+                    <button id="botonTirar" onclick="tirarJugador()" class="btn btn-info btn-custom btn-lg"
+                        type="button">TIRAR</button>
+                    <button id="botonPasar" class="btn btn-danger btn-custom btn-lg" onclick="pasarJugador()"
+                        type="button">PASAR</button>
+                    <button id="botonVolverJugar" onclick="volverAJugar()"
+                        class="btn-volveraJugar border border-5 border-white shadow-lg d-none btn btn-success btn-custom btn-lg"
+                        type="button">VOLVER A JUGAR</button>
+                </div>
+            </div>
+            <div class="col text-center">
+                <img class="foto" src="roberto-jugador.png">
+                <div id="PuntosJugador" class="puntos">
+                    Puntos: 0
+                </div>
+            </div>
+            <div class="col text-center">
+                <table id="registroJugador" class="table table-bordered">
+                    <tr class="table-dark">
+                        <th>
+                            #
+                        </th>
+                        <th>
+                            Registro
+                        </th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <div class="row">
+            <div id="mensaje" class="col text-center  fs-2 fw-bold mensaje text-info">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col text-center ">
+                <img src="1.png" class="dados d-none" id="dado1">
+                <img src="2.png" class="dados d-none" id="dado2">
+                <img src="3.png" class="dados d-none" id="dado3">
+                <img src="4.png" class="dados d-none" id="dado4">
+                <img src="5.png" class="dados d-none" id="dado5">
+                <img src="6.png" class="dados d-none" id="dado6">
+            </div>
+        </div>
+
+    </div>
+    <script src="programa.js"></script>
+</body>
+
+</html>

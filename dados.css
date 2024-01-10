@@ -1,0 +1,44 @@
+body {
+    background-image: url("tapiz.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.foto {
+    max-height: 200px;
+    max-width: 200px;
+}
+
+.puntos {
+    font-size: 32px;
+    color: #fffbfb;
+}
+
+.btn-custom {
+    color: #fffbfb;
+
+}
+
+.btn-custom:hover {
+    color: #000000;
+
+}
+
+.btn-volveraJugar {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 70px;
+    border: 10px;
+    border-color: white;
+}
+
+.dados {
+    max-height: 70%;
+    max-width: 70%;
+}
+
+.mensaje {
+    text-shadow: 2px 2px 2px black;
+}
