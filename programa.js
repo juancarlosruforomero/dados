@@ -211,3 +211,7 @@ function registro(quien, mensaje) {
         cell2.innerHTML = mensaje
     }
 }
+
+function mostrarInfo(){
+    alert("1. Este juego consiste en evitar superar los 20 puntos que es el máximo.\n2. Empieza el jugador.\n3. Hay difirentes botones los cuales hay 1 para TIRAR y otro para PASAR.\n4. Si el jugador y la máquina deciden pasar ambos ganará el que no supere 20 y más cerca esté.\n5. Al finalizar la partida se mostrará un botón para poder volver a jugar otra ronda.\n6. En los laterales se irá mostrando los registros de cada turno del jugador y la máquina.")
+}
