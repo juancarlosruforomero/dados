@@ -1,8 +1,19 @@
-# Aprendiendo HTML con un videojuego de dados
+# APRENDIENDO HTML CON UN VIDEOJUEGO DE DADOS
 
 Estoy programando por primera vez HTML.
 
-## Licencia
+
+## REGLAS DEL JUEGO
+
+1. Este juego consiste en evitar superar los 20 puntos que es el máximo.
+2. Empieza el jugador.
+3. Hay difirentes botones los cuales hay 1 para TIRAR y otro para PASAR.
+4. Si el jugador y la máquina deciden pasar ambos ganará el que no supere 20 y más cerca esté.
+5. Al finalizar la partida se mostrará un botón para poder volver a jugar otra ronda.
+6. En los laterales se irá mostrando los registros de cada turno del jugador y la máquina.
+
+
+## LICENCIA
 
 Copyright 2024 Juan Carlos Rufo Romero juancarlos.rufo75@gmail.com.
 
